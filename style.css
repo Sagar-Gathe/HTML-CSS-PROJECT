@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+    box-sizing: border-box;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 10px;
+    min-height: 20px;
+    margin-right: 0;
+    font-size: 10px;
+    padding-left: 40px;
+}
+ul li{
+
+    display: inline-block;
+    padding-left: 40px;
+
+}
+ li a{
+
+    text-decoration: none;
+    color: #333333;
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    
+}
+#Insurance{
+    flex-direction: column;
+    font-size: 15px;
+    color: #F94A77;
+    margin-left: 0px;
+    font-family: Piazzolla;
+    font-weight: 600;
+    line-height: 12px;
+    
+}
+
+#CONTACT{
+    margin-left:auto;
+    
+
+}
+#CONTACT,
+#symbol{
+   border: solid;
+   padding: 5px;
+   border-radius: 4px;
+   display: inline-block;
+   margin: 10px;
+}
+.headR{
+
+    margin-left: 0;
+}
+#Insurance,
+#CONTACT,
+#symbol{
+    display: inline-block
+}
+
+
+.nav{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.nav li{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin: 0;
+}
+.navbar,
+.headl{
+    display: inline-block;
+}
+.headl{
+
+    margin-left: 450px;
+    width: 97px;
+    height: 22px;
+    top: 34px;
+    left: 1090px;
+
+}
+#cb{
+    border: solid;
+    background-color: white;
+    width: 162px;
+    height: 37px;
+    top: 27px;
+    left: 1058px;
+    border-radius: 10px;
+    border: solid;
+    color: black;
+    padding: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+#ctexts{
+    font-family: Outfit;
+    font-weight: 400;
+    height: 18.58px;
+    line-height: 17.64px;
+    color: black;
+    top: 37px;
+    left:1120px ;
+    
+    
+    
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border: solid;
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+    width: 1288px;
+    height: 84px;
+    left: -4px;
+    
+
+}
+.got{
+ 
+ width: 50%;
+ height: 150px;
+ display: inline block;
+ flex:1;
+
+}
+.home{
+
+    
+     width: 50%;
+     height: 150px;
+     display: inline block;
+     flex:1;
+}
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    border: mixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    width: 1288px;
+    margin-top: 0;
+    padding-top:0 ;
+    position: relative;
+    top: 84px;
+    left: 60px;
+    color: #000000;
+    
+}
+
+.top{
+
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    width: 1288px;
+    height: 353px;
+    top: 673px;
+    left: -19px;
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.68px;
+
+
+}
+#top-rated{
+
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Piazzolla;
+    top: 718px;
+    left: 489px;
+    height: 85px;
+    
+    text-align: center;
+
+}
+#world-class{
+
+    top: 818px;
+}
+.homeimg{
+
+    width: 500px;
+    height: 500px;
+    top: 84px;
+    left: 720px;
+    
+    
+}
+#homesub{
+    width: 317px;
+    height: 23px;
+    top: 700px;
+    opacity: 60%;
+    margin-left: 120px;
+
+}
+.stars{
+
+    width: 411.56px;
+    height: 80px;
+    top: 875px;
+    left: 433.72px;
+}
+#we{
+
+    font-family: Piazzolla;
+    font-weight: 600;
+    font-size:80px;
+    line-height: 113.6px;
+    width: 400px;
+    height: 224px;
+    top: 164px;
+    left: 160px;
+}
+#insurance{
+
+    width: 338px;
+    height: 46px;
+    top: 416px;
+    left: 164px;
+    opacity: 60%;
+}
+.button-dia{
+
+    width: 260px;
+    height: 60px;
+    top: 507px;
+    left: 164px;
+    
+}
+button{
+
+    background-color: #F94A77;
+    color: #000000;
+    color: white;
+    padding-top: 10px;
+    padding-bottom :10px ;
+    padding-right: 25px;
+    padding-left:25px;
+    border-radius: 5px;
+}
+.header2{
+    width: 1288px;
+    height: 85px;
+    top: 1131px;
+
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+    
+
+}
+.plans{
+
+    font-family: Piazzolla;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 85.2px;
+    color: #000000;
+    
+}
+.main2{
+
+    width: 1288px;
+    height: 611px;
+    top: 1131px;
+    left: 64px;
+    
+}
+.container2{
+
+    width: 1140px;
+    height: 421px;
+    top: 1324px;
+    left: 85.12px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+#renters{
+
+    font-family: Piazzolla;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 63.9px;
+    padding: 20px;
+    width: 340px;
+    height: 399px;
+    border: solid;
+    border-radius: 30px;
+}
+#home2{
+
+    width: 340px;
+    height: 399px;
+    top: -22px;
+    left: 200px;
+    border: solid;
+    font-family: Piazzolla;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 63.9px;
+    border-radius: 30px;
+    padding: 50px;
+}
+#auto{
+
+    width: 340px;
+    height: 399px;
+    border: solid;
+    font-family: Piazzolla;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 63.9px;
+    border-radius: 30px;
+    padding: 30px;
+    
+}
+#mind{
+
+
+    top: 1216px;
+    width: 318px;
+    left: 418.61px;
+    opacity: 60%;
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.68px;
+    margin-left: 480px;
+
+
+}
+.header3{
+
+    width: 1288px;
+    height: 705px;
+    top: 1868px;
+    left: -19px;
+    border: solid;
+    position:absolute;
+}
+#it-works{
+
+    width: 372px;
+    height: 85px;
+    top: 1913px;
+    left: 454px;
+    
+    margin-left: 400px;
+    text-align: center;
+    padding: 20px;
+    font-family: Piazzolla;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 85.2px;
+    
+}
+.simple1{
+
+    width: 400px;
+    height: 23px;
+    top: 2013px;
+    opacity: 60%;
+    
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 5px;
+      
+    
+}
+#brain{
+    width: 750px;
+    height: 500px;
+    top: 1500px;
+    left: 250px;
+    position: relative;
+}
+#fee{
+    position:absolute;
+    margin-left: 169px;
+    margin-bottom:500px ;
+    top: 2288px;
+    font-family: Outfit;
+    width: 164px;
+    height: 60px;
+    opacity: 60%;
+}
+#super{
+    position: absolute;
+    top: 2064px;
+    margin-left: 874px;
+    font-family: Outfit;
+    width: 164px;
+    height: 60px;
+    opacity: 60%;
+}
+#no{
+
+   position: absolute;
+   margin-left: 904px;
+   top: 2357px;
+   font-family: Outfit;
+   width: 164px;
+   height: 90px;
+   opacity: 60%;
+}
+#wemake{
+    font-family: Outfit;
+    font-weight: 400;
+    size: 18px;
+    line-height: 22.68px;
+    
+}
+#a,#b,#c,#d,#e{
+    display: inline-block;
+}
+#b{
+    padding: 20x;
+    
+}
+#d{
+    margin-top: 10px;
+    padding: 10px;
+}
+#e{
+
+    margin-top: -600px;
+}
+#c{
+    margin-Top: -300px;
+}
+#stuff{
+
+    width: 193px;
+    height: 23px;
+    top: 500px;
+    margin-left: 40px;
+    font-size: 18px;
+    opacity: 60%;
+    font-family: Outfit;
+    font-weight: 400;
+
+}
+#cv{
+
+    width: 204.11px;
+    height: 23px;
+    top: 245px;
+    margin-left:30px;
+    opacity: 60%;
+    font-family: Outfit;
+    line-height: 22.68px;
+    font-size:18px ;
+    margin-bottom: 10px;
+
+}
+#vehi{
+
+    width: 222.21px;
+    height: 23px;
+    top: 245px;
+    left: 888.71px;
+    margin-left: 30px;
+    opacity: 60%;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 22.68px;
+    font-size:18px ;
+}
+#b1,
+#b2,
+#b3{
+    border: solid;
+    color: black;
+     background-color: white;
+     border-radius: 15px;
+     display: inline;
+}
+.footerLast{
+    top: 2573px;
+    width: 1288px;
+    height: 258px;
+    position:absolute;
+    border: solid;
+    padding: 48px,80px,48px,80px;
+    background-color: #000000;
+    color: white;
+}
+.insurance1{
+
+    width: 1120px;
+    height: 24px;
+    gap: 48px;
+
+}
+.navbar1{
+
+    width: fill(1,120px);
+    height: Hug(24px);
+    gap: 48px;
+    margin-top: 20px;
+}
+.Comapanyname{
+
+    width: Fill(1,120px);
+    height: Hug(40px);
+    gap: 48px;
+
+    margin-top: 50px;
+}
+hr{
+    top: 3500px;
+    margin-top: 100px;
+    width: 1120px;
+    height: 1px;
+    margin-left: 80px;
+    color: #C1C7CD;
+    
+}
+#Comapanyname1{
+
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19.6px;
+}
+#cn{
+
+    width: 269px;
+    height: 20px;
+}
+#im{
+    margin-left:700px ;
+}
+#menu1{
+
+    margin-left: 430px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+}
+#cn,
+#menu1,
+#inl,
+#im{
+    display: inline-block;
+}
